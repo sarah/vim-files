@@ -63,7 +63,7 @@ set wildmenu
 " KEYBINDINGS
 
 " Quick, jump out of insert mode while no one is looking
-imap ii <Esc>
+" imap ii <Esc>
 
 " Yank from the cursor to the end of the line, to be consistent with C and D.
 nnoremap Y y$
@@ -183,7 +183,7 @@ let NERDTreeHijackNetrw = 0
 let NERDTreeIgnore=['\.$', '\~$']
 
 " NeoComplCache
-let g:NeoComplCache_EnableAtStartup=1
+" let g:NeoComplCache_EnableAtStartup=1
 
 
 " AUTOCOMMANDS
